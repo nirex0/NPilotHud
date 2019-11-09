@@ -4,7 +4,7 @@ A Semi-Advanced Hud with caching to boost performance and FPS as much as possibl
 # Hud Preview
 ![Hud](https://raw.githubusercontent.com/nirex0/PilotHud/master/res/Hud.png)
 
-Inspired by Chris Morrison's [pilotHud](github.com/Chris-morrison/pilotHud)
+Inspired by Chris Morrison's [pilotHud](https://github.com/Chris-morrison/pilotHud)
 
 # Contact
 
