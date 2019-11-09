@@ -1,4 +1,5 @@
 # Pilot Hud
+Inspired by: github.com/Chris-morrison/pilotHud
 A Semi-Advanced Hud with caching to boost performance and FPS as much as possible (Even with software rendering) Made using C# WPF.
 
 # Hud Preview
