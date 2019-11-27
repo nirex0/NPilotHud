@@ -45,7 +45,7 @@ Inspired by Chris Morrison's [pilotHud](https://github.com/Chris-morrison/pilotH
 # NOTE
 
 Better to be used as a Square (n x n)
-Optimal Size is 400 x 400 to 500 x 500
+Optimal Size is between (400 x 400) and (500 x 500)
 
 # Contact
 
