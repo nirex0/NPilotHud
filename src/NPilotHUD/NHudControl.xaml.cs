@@ -679,7 +679,7 @@ namespace NPilotHUD
         {
             if (staticRollIndicator)
             {
-                cache.ZeroRollTick.rotation.Angle = rollCommand + RollAngle;
+                cache.ZeroRollTick.rotation.Angle = rollCommand - RollAngle;
             }
             else
             {
@@ -732,14 +732,14 @@ namespace NPilotHUD
             {
                 if (staticRollIndicator)
                 {
-                    DrawRollTick(i, circleRad, cache.Roll.tickList[i].Key + rollAngle, cache.Roll.tickList[i].Value);
+                    DrawRollTick(i, circleRad, cache.Roll.tickList[i].Key - rollAngle, cache.Roll.tickList[i].Value);
                 }
                 else
                 {
                     DrawRollTick(i, circleRad, cache.Roll.tickList[i].Key, cache.Roll.tickList[i].Value);
                 }
             }
-            DrawRollIndicator(circleRad, rollAngle, staticRollIndicator);
+            DrawRollIndicator(circleRad, -rollAngle, staticRollIndicator);
         }
         private void DrawClimbRate(double climbRate)
         {
