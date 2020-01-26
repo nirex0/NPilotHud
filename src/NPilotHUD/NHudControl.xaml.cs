@@ -732,7 +732,7 @@ namespace NPilotHUD
             {
                 if (staticRollIndicator)
                 {
-                    DrawRollTick(i, circleRad, cache.Roll.tickList[i].Key + rollAngle, cache.Roll.tickList[i].Value);
+                    DrawRollTick(i, circleRad, cache.Roll.tickList[i].Key - rollAngle, cache.Roll.tickList[i].Value);
                 }
                 else
                 {
@@ -809,7 +809,6 @@ namespace NPilotHUD
                 case EGPSMode._3D:
                     text = "        3D";
                     cache.GPSLabel.gpsText.Foreground = HudBrush;
-                    text = "Not Valid";
                     break;
                 default:
                     break;
@@ -1064,6 +1063,8 @@ namespace NPilotHUD
             Canvas_Compass.Children.Clear();
             Canvas_RightHUD.Children.Clear();
             Canvas_LeftHUD.Children.Clear();
+
+            WayPointDistance = Math.Round(WayPointDistance, 2);
 
             DrawGroundSpeed(AirSpeed, GroundSpeed, GroundSpeedCommand);
             DrawCommandPitchTick(PitchCommand, PitchAngle, RollAngle);
