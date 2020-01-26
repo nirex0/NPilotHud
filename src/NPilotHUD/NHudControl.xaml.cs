@@ -732,7 +732,7 @@ namespace NPilotHUD
             {
                 if (staticRollIndicator)
                 {
-                    DrawRollTick(i, circleRad, cache.Roll.tickList[i].Key - rollAngle, cache.Roll.tickList[i].Value);
+                    DrawRollTick(i, circleRad, cache.Roll.tickList[i].Key + rollAngle, cache.Roll.tickList[i].Value);
                 }
                 else
                 {

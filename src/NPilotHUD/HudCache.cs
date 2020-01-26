@@ -604,17 +604,17 @@ namespace NPilotHUD
                     texts[i].RenderTransform = textRotationTransform[i];
                 }
 
-                texts[9].Text = "60";
-                texts[8].Text = "45";
-                texts[7].Text = "30";
-                texts[6].Text = "20";
-                texts[5].Text = "10";
+                texts[9].Text = "-60";
+                texts[8].Text = "-45";
+                texts[7].Text = "-30";
+                texts[6].Text = "-20";
+                texts[5].Text = "-10";
 
-                texts[4].Text = "-60";
-                texts[3].Text = "-45";
-                texts[2].Text = "-30";
-                texts[1].Text = "-20";
-                texts[0].Text = "-10";
+                texts[4].Text = "60";
+                texts[3].Text = "45";
+                texts[2].Text = "30";
+                texts[1].Text = "20";
+                texts[0].Text = "10";
 
                 line = new Line[RollCacheCount];
                 for (int i = 0; i < RollCacheCount; i++)
